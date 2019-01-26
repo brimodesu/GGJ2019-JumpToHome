@@ -5,9 +5,6 @@ using UnityEngine;
 public class CharacterController : MonoBehaviour
 {
     public int velocidad = 10;
-    public Object pasto;
-
-    private MeshRenderer renderer;
     Rigidbody2D cuerpo;
 
     public Transform CharacterBody;
@@ -23,6 +20,7 @@ public class CharacterController : MonoBehaviour
     {
         direccion = true;
         cuerpo = GetComponent<Rigidbody2D>();
+        pastoRenderer = pasto.GetComponent<MeshRenderer>();
     }
 
     private void FixedUpdate()
