@@ -280,7 +280,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 10
-  pasto: {fileID: 0}
   CharacterBody: {fileID: 128683365}
   direccion: 0
 --- !u!1 &309505683
@@ -388,7 +387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4537f68213b940a40957b53a1836ca9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  renderer: {fileID: 0}
+  velocidad: 0.2
 --- !u!1 &561076719
 GameObject:
   m_ObjectHideFlags: 0
