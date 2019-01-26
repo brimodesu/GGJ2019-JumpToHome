@@ -20,7 +20,6 @@ public class CharacterController : MonoBehaviour
     {
         direccion = true;
         cuerpo = GetComponent<Rigidbody2D>();
-        pastoRenderer = pasto.GetComponent<MeshRenderer>();
     }
 
     private void FixedUpdate()
