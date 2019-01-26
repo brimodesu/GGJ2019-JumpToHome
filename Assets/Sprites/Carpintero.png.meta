@@ -1,7 +1,13 @@
 fileFormatVersion: 2
 guid: 2e7e43be36c09224db395b98cbc372bd
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Carpintero_0
+    21300002: Carpintero_1
+    21300004: Carpintero_2
+    21300006: Carpintero_3
+    21300008: Carpintero_4
+    21300010: Carpintero_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,9 +46,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -69,9 +75,140 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Carpintero_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 229
+        width: 255
+        height: 205
+      alignment: 9
+      pivot: {x: 0.4903844, y: 0.017578349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6067605b9a3c28498db6d8c57bf72e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpintero_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 62
+        height: 82
+      alignment: 9
+      pivot: {x: 0.86911494, y: 0.86879337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eefe771943a9e34fa018fdf549bc396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpintero_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 89
+        width: 126
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74fde27ac08a1947b3a241fbde14787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpintero_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 134
+        width: 100
+        height: 71
+      alignment: 9
+      pivot: {x: 0.13220337, y: 0.7762791}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64ac8348a4b3d643b576f8bd7272828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpintero_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1
+        width: 40
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.93179435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2187bce04920dd648ab843a0a3eff089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpintero_5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 39
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9755346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd84e534b7a7534cb3d51cc2f063854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
