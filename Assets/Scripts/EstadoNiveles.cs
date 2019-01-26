@@ -2,9 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EstadoNiveles : MonoBehaviour
+public class EstadoNiveles
 {
-    public static bool[] NivelesResueltos;
+
+    private static bool[] NivelesResueltos;
+    
+    //Hay que instanciar el numero de niveles que tendrá el juego
+    public static void numeroNiveles(int niveles) {
+        NivelesResueltos = new bool[niveles];
+    }
 
     public static void Resolver(int nivel) {
         NivelesResueltos[nivel] = true;
