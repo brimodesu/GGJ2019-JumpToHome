@@ -5,14 +5,13 @@ using UnityEngine;
 public class CharacterController : MonoBehaviour
 {
     public int velocidad = 5;
-    private SpriteRenderer spriteRenderer;
     public Object pasto;
     private MeshRenderer renderer;
     Rigidbody2D cuerpo;
 
     void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+       
         
     }
 
@@ -29,11 +28,7 @@ public class CharacterController : MonoBehaviour
        float horizontal = Input.GetAxis("Horizontal");
         movimiento.x = horizontal;
 
-        bool flipSprite = (spriteRenderer.flipX ? (movimiento.x > 0.01f) : (movimiento.x < 0.01f));
-        if (flipSprite)
-        {
-            spriteRenderer.flipX = !spriteRenderer.flipX;
-        }
+       
 
         cuerpo.velocity = Vector2.Lerp(cuerpo.velocity, movimiento, 1);
 
