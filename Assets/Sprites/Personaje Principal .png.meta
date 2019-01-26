@@ -1,16 +1,22 @@
 fileFormatVersion: 2
 guid: 1a51bc0e0e9619c4cac46c42c6365030
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Personaje Principal _0
+    21300002: Personaje Principal _1
+    21300004: Personaje Principal _2
+    21300006: Personaje Principal _3
+    21300008: Personaje Principal _4
+    21300010: Personaje Principal _5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
-    borderMipMap: 0
+    borderMipMap: 1
     mipMapsPreserveCoverage: 0
     alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
@@ -31,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 2
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,9 +46,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -61,9 +67,53 @@ TextureImporter:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -71,7 +121,127 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Personaje Principal _0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 236
+        width: 272
+        height: 236
+      alignment: 9
+      pivot: {x: 0.4987186, y: 0.024079395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e17163d9444154aa0f43f3d287f7c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje Principal _1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 157
+        width: 86
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5810511, y: 0.9051548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eb50f1c86b27e43b2b659f41774a75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje Principal _2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 156
+        width: 76
+        height: 64
+      alignment: 9
+      pivot: {x: 0.15606529, y: 0.8920851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53afadefeb5bcd54db8befa2280b0c63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje Principal _3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 78
+        width: 127
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 6, z: 0, w: 8}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304d6ff5f847e0846bc9bc298df05847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje Principal _4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 42
+        height: 53
+      alignment: 9
+      pivot: {x: 0.50926864, y: 0.94487965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76608571719ab184f9febbdd067be5ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje Principal _5
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 38
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5102435, y: 0.961357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e50a5e127cca3840a5ef663ca062bf4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
