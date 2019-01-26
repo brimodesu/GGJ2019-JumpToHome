@@ -20,13 +20,13 @@ public class Scroll : MonoBehaviour
         {
             if (Input.GetAxis("Horizontal") > 0)
             {
-                direccion = -1;
+                direccion = 1;
             }
             else if (Input.GetAxis("Horizontal") < 0)
             {
-                direccion = 1;
+                direccion = -1;
             }
-            renderer.material.mainTextureOffset = new Vector2(Time.time * velocidad * direccion, 0);
+            renderer.material.mainTextureOffset += new Vector2(Time.time * velocidad * 0.003f * direccion, 0);
         }
 
     }
