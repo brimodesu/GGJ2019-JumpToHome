@@ -6,7 +6,8 @@ public class CharacterController : MonoBehaviour
 {
     public int velocidad = 5;
     private SpriteRenderer spriteRenderer;
-
+    public Object pasto;
+    private MeshRenderer renderer;
     Rigidbody2D cuerpo;
 
     void Awake()
@@ -35,5 +36,6 @@ public class CharacterController : MonoBehaviour
         }
 
         cuerpo.velocity = Vector2.Lerp(cuerpo.velocity, movimiento, 1);
+
     }
 }
