@@ -1,0 +1,335 @@
+fileFormatVersion: 2
+guid: f9adc7c144b8d7240acbc3d4d49a1cca
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: Capa 1_GO/Capa 1_GO
+    100002: Capa 1_GO/Capa 1_GO/Capa 1
+    100004: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial
+    100006: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial_1
+    100008: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial_2
+    100010: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial_3
+    100012: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial_4
+    100014: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial_5
+    400000: Capa 1_GO/Capa 1_GO/Transform
+    400002: Capa 1_GO/Capa 1_GO/Capa 1/Transform
+    400004: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial/Transform
+    400006: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial_1/Transform
+    400008: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial_2/Transform
+    400010: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial_3/Transform
+    400012: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial_4/Transform
+    400014: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial_5/Transform
+    2800000: Carpintero
+    21200000: Capa 1_GO/Capa 1_GO/Capa 1/SpriteRenderer
+    21200002: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial/SpriteRenderer
+    21200004: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial_1/SpriteRenderer
+    21200006: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial_2/SpriteRenderer
+    21200008: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial_3/SpriteRenderer
+    21200010: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial_4/SpriteRenderer
+    21200012: Capa 1_GO/Capa 1_GO/Objeto inteligente vectorial_5/SpriteRenderer
+    21300000: Objeto inteligente vectorial
+    21300002: Objeto inteligente vectorial_1
+    21300004: Objeto inteligente vectorial_2
+    21300006: Objeto inteligente vectorial_3
+    21300008: Objeto inteligente vectorial_4
+    21300010: Objeto inteligente vectorial_5
+    21300012: Capa 1
+    100100000: Capa 1_GO
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Objeto inteligente vectorial
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 345
+      y: 106
+      width: 81
+      height: 109
+    spriteID: d71206cfd1915b04f85e4cd4b44b5428
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 231, y: -6}
+  - name: Objeto inteligente vectorial_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 333
+      height: 267
+    spriteID: ccf268a5734e68a418e4fe8ff3db9e79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -95, y: -214}
+  - name: Objeto inteligente vectorial_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 434
+      y: 106
+      width: 51
+      height: 70
+    spriteID: c806bfec840b9e24e93505d392c7151f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 239, y: 78}
+  - name: Objeto inteligente vectorial_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 279
+      width: 166
+      height: 158
+    spriteID: 1f0ddcb1cce7cde44a16fc07be161c4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -162, y: 199}
+  - name: Objeto inteligente vectorial_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 345
+      y: 4
+      width: 130
+      height: 94
+    spriteID: 0fe183d45ed75a74bb92a73c0fb2199c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 49, y: -107}
+  - name: Objeto inteligente vectorial_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 434
+      y: 184
+      width: 51
+      height: 70
+    spriteID: ecc940814bab3d649b9df97a77513b80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 171, y: 156}
+  - name: Capa 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 434
+      y: 262
+      width: 0
+      height: 0
+    spriteID: 15bfb278857bd8f4cb6130e8259f7024
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -78, y: -250}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 512
+  importedTextureHeight: 512
+  documentSize: {x: 512, y: 512}
+  textureActualWidth: 512
+  textureActualHeight: 512
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Objeto inteligente vectorial
+    spriteName: Objeto inteligente vectorial
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d71206cfd1915b04f85e4cd4b44b5428
+    layerID: 15
+    mosaicPosition: {x: 345, y: 106}
+  - name: Objeto inteligente vectorial
+    spriteName: Objeto inteligente vectorial_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ccf268a5734e68a418e4fe8ff3db9e79
+    layerID: 13
+    mosaicPosition: {x: 4, y: 4}
+  - name: Objeto inteligente vectorial
+    spriteName: Objeto inteligente vectorial_2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c806bfec840b9e24e93505d392c7151f
+    layerID: 11
+    mosaicPosition: {x: 434, y: 106}
+  - name: Objeto inteligente vectorial
+    spriteName: Objeto inteligente vectorial_3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1f0ddcb1cce7cde44a16fc07be161c4c
+    layerID: 7
+    mosaicPosition: {x: 4, y: 279}
+  - name: Objeto inteligente vectorial
+    spriteName: Objeto inteligente vectorial_4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0fe183d45ed75a74bb92a73c0fb2199c
+    layerID: 5
+    mosaicPosition: {x: 345, y: 4}
+  - name: Objeto inteligente vectorial
+    spriteName: Objeto inteligente vectorial_5
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ecc940814bab3d649b9df97a77513b80
+    layerID: 3
+    mosaicPosition: {x: 434, y: 184}
+  - name: Capa 1
+    spriteName: Capa 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 15bfb278857bd8f4cb6130e8259f7024
+    layerID: 2
+    mosaicPosition: {x: 434, y: 262}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+  boneGOs: []
+  generateGOHierarchy: 0
