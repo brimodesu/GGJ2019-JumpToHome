@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject panelPausa;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +16,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
     }
 
 
@@ -21,11 +24,23 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(nombre_escena);
     }
-    
-    public void pausa() {
+
+    public void Pausar() {
         Time.timeScale = 0;
+        panelPausa.SetActive(true);
+        //Detener la musica cuando se agregue
     }
     public void CambiarEstadoPanel(GameObject panel) {
         panel.SetActive(!panel.activeInHierarchy);
-   }
+    }
+
+    public void Iniciar(){
+        Time.timeScale = 1;
+        panelPausa.SetActive(false);
+    }
+
+    public void Musica() {
+        EstadoNiveles.musica = !EstadoNiveles.musica;
+        //Cambiar el muteo de la musica cuando se agregue
+    }
 }

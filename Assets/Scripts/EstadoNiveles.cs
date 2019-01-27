@@ -6,7 +6,8 @@ public class EstadoNiveles
 {
 
     private static bool[] NivelesResueltos;
-    
+    public static bool musica = true;
+
     //Hay que instanciar el numero de niveles que tendrá el juego
     public static void numeroNiveles(int niveles) {
         NivelesResueltos = new bool[niveles];
