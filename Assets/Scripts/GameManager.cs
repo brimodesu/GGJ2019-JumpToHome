@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
     public GameObject panelPausa, btnMOn, btnMOff;
     public static int objetivoF = 30;
+    public AudioSource audio;
+
 
     private void Awake()
     {
@@ -18,10 +20,13 @@ public class GameManager : MonoBehaviour
         if (SceneManager.GetActiveScene().name.Equals("Inicio"))
         {
             EstadoNiveles.scroll = true;
+            audio.GetComponent<AudioManager>().reproducir(0);
         }
         else {
             EstadoNiveles.scroll = false;
+            audio.GetComponent<AudioManager>().reproducir(4);
         }
+        
     }
 
     // Update is called once per frame
@@ -66,6 +71,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void Musica() {
+        audio.GetComponent<AudioManager>().mutear(EstadoNiveles.musica);
         EstadoNiveles.musica = !EstadoNiveles.musica;
         if (EstadoNiveles.musica) {
             btnMOn.SetActive(true);

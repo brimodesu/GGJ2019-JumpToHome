@@ -9,10 +9,9 @@ public class AudioManager : MonoBehaviour
     
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         Reproductor = GetComponent<AudioSource>();
-        reproducir(0);
     }
 
     //selecciona la cancion que reproducira el audio source
@@ -21,7 +20,7 @@ public class AudioManager : MonoBehaviour
         Reproductor.Play();
     }
 
-    public void mutear() {
-        Reproductor.mute = !Reproductor.mute;
+    public void mutear(bool valor) {
+        Reproductor.mute = valor;
     }
 }
