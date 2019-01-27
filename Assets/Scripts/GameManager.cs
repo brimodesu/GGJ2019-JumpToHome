@@ -12,6 +12,16 @@ public class GameManager : MonoBehaviour
     {
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = 30;
+
+        Debug.Log(SceneManager.GetActiveScene().name);
+
+        if (SceneManager.GetActiveScene().name.Equals("Inicio"))
+        {
+            EstadoNiveles.scroll = true;
+        }
+        else {
+            EstadoNiveles.scroll = false;
+        }
     }
 
     // Update is called once per frame
