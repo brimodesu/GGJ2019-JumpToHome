@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
-    public int velocidad = 10;
+    public float velocidad = 10f;
     Rigidbody2D cuerpo;
 
     public Transform CharacterBody;
@@ -32,7 +32,7 @@ public class CharacterController : MonoBehaviour
 
     private void HandleMovement(float horizontal) {
         Vector2 movimiento = Vector2.zero;
-        movimiento.x = horizontal;
+        movimiento.x = horizontal * velocidad;
         cuerpo.velocity = Vector2.Lerp(cuerpo.velocity, movimiento, 1);
     }
     private void Flip(float horizontal) {

@@ -1320,7 +1320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1260d76f68e1a854eb6db62589476d24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 20
+  velocidad: 1.5
   CharacterBody: {fileID: 1101293660}
   direccion: 1
 --- !u!50 &693933012

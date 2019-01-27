@@ -6,17 +6,20 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameObject panelPausa;
+    public static int objetivoF = 30;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 30;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (Application.targetFrameRate != objetivoF) {
+            Application.targetFrameRate = objetivoF;
+        }
     }
 
 
