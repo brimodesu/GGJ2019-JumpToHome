@@ -34,6 +34,7 @@ public class Sierra : MonoBehaviour
             giro = false;
             GetComponent<Collider2D>().isTrigger = true;
             collision.gameObject.GetComponent<Collider2D>().isTrigger = true;
+          
         }
         
         
