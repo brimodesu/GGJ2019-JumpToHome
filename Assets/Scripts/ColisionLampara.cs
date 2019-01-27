@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class ColisionLampara : MonoBehaviour
 {
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,11 @@ public class ColisionLampara : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player") {
             SceneManager.LoadScene(1);   
+        }
+        Debug.Log(collision.gameObject.name);
+        if (collision.gameObject.name == "Piso") {
+            GetComponent<Rigidbody2D>().gravityScale = 0f;
+            GetComponent<BoxCollider2D>().isTrigger = true;
         }
     }
 }

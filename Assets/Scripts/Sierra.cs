@@ -7,7 +7,7 @@ public class Sierra : MonoBehaviour
     public float velocidad = 10f;
     public GameObject mesa, explosion, cadena;
     Animator animadorCadena;
-    bool giro;
+    bool giro = true;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +33,9 @@ public class Sierra : MonoBehaviour
             Destroy(mesa);
             giro = false;
             GetComponent<Collider2D>().isTrigger = true;
+            collision.gameObject.GetComponent<Collider2D>().isTrigger = true;
         }
+        
+        
     }
 }
