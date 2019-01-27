@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Floor
   - Killer
+  - House
   layers:
   - Default
   - TransparentFX
