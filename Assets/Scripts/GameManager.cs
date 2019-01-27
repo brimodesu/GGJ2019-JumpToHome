@@ -28,6 +28,10 @@ public class GameManager : MonoBehaviour
             EstadoNiveles.scroll = true;
             audio.GetComponent<AudioManager>().reproducir(0);
         }
+        else if (SceneManager.GetActiveScene().name.Equals("Intro")) {
+            EstadoNiveles.scroll = false;
+            audio.GetComponent<AudioManager>().reproducir(3);
+        }
         else
         {
             EstadoNiveles.scroll = false;
