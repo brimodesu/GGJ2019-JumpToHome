@@ -5,6 +5,7 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour { 
 
     public bool followTarget = true;
+    public float offset_y = 0f;
 
     public GameObject player;       //Public variable to store a reference to the player game object
 
@@ -15,7 +16,7 @@ public class CameraFollow : MonoBehaviour {
     void Start()
     {
         //Calculate and store the offset value by getting the distance between the player's position and camera's position.
-        offset = transform.position - player.transform.position;
+        offset = new Vector3(transform.position.x - player.transform.position.x, offset_y);
     }
 
     // LateUpdate is called after Update each frame

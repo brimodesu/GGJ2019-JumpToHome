@@ -8,6 +8,8 @@ public class CharacterController : MonoBehaviour
     Rigidbody2D cuerpo;
 
     public Transform CharacterBody;
+    public Animator CharacterAnimator;
+
 
     public bool direccion;
 
@@ -33,7 +35,11 @@ public class CharacterController : MonoBehaviour
     private void HandleMovement(float horizontal) {
         Vector2 movimiento = Vector2.zero;
         movimiento.x = horizontal * velocidad;
+        
         cuerpo.velocity = Vector2.Lerp(cuerpo.velocity, movimiento, 1);
+
+        Debug.Log(cuerpo.velocity.x);
+        CharacterAnimator.SetFloat("Movimiento", Mathf.Abs(cuerpo.velocity.x));
     }
     private void Flip(float horizontal) {
         if (horizontal > 0 && !direccion || horizontal < 0 && direccion) {
