@@ -21,4 +21,8 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(nombre_escena);
     }
+
+    public void CambiarEstadoPanel(GameObject panel) {
+        panel.SetActive(!panel.activeInHierarchy);
+   }
 }
