@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject panelPausa;
+    public GameObject panelPausa, btnMOn, btnMOff;
     public static int objetivoF = 30;
 
     private void Awake()
@@ -40,8 +40,20 @@ public class GameManager : MonoBehaviour
     }
 
     public void Pausar() {
-        Time.timeScale = 0;
+        if (EstadoNiveles.musica)
+        {
+            btnMOn.SetActive(true);
+            btnMOff.SetActive(false);
+        }
+        else
+        {
+            btnMOn.SetActive(false);
+            btnMOff.SetActive(true);
+        }
+        Debug.Log("aqui");
         panelPausa.SetActive(true);
+        Time.timeScale = 0;
+        
         //Detener la musica cuando se agregue
     }
     public void CambiarEstadoPanel(GameObject panel) {
@@ -55,6 +67,14 @@ public class GameManager : MonoBehaviour
 
     public void Musica() {
         EstadoNiveles.musica = !EstadoNiveles.musica;
+        if (EstadoNiveles.musica) {
+            btnMOn.SetActive(true);
+            btnMOff.SetActive(false);
+        }
+        else {
+            btnMOn.SetActive(false);
+            btnMOff.SetActive(true);
+        }
         //Cambiar el muteo de la musica cuando se agregue
     }
 }

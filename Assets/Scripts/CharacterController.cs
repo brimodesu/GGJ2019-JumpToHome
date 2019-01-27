@@ -38,7 +38,7 @@ public class CharacterController : MonoBehaviour
         
         cuerpo.velocity = Vector2.Lerp(cuerpo.velocity, movimiento, 1);
 
-        Debug.Log(cuerpo.velocity.x);
+        //Debug.Log(cuerpo.velocity.x);
         CharacterAnimator.SetFloat("Movimiento", Mathf.Abs(cuerpo.velocity.x));
     }
     private void Flip(float horizontal) {
