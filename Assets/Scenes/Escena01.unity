@@ -423,6 +423,17 @@ MonoBehaviour:
           m_StringArgument: Inicio
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 472733581}
+        m_MethodName: CambiarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Inicio
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &314945113
@@ -1341,7 +1352,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 693933009}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -3.6774673, z: 0}
+  m_LocalPosition: {x: 0.38, y: -3.6774673, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1101293660}
@@ -1537,6 +1548,8 @@ GameObject:
   m_Component:
   - component: {fileID: 928094193}
   - component: {fileID: 928094192}
+  - component: {fileID: 928094195}
+  - component: {fileID: 928094194}
   m_Layer: 0
   m_Name: Casa
   m_TagString: Untagged
@@ -1581,6 +1594,44 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &928094194
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928094191}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.5, y: 5}
+  m_EdgeRadius: 0
+--- !u!114 &928094195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928094191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60ed53e5c4ae31a4da5355fd9fd8c08f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &999347377
 GameObject:
   m_ObjectHideFlags: 0
@@ -2162,7 +2213,7 @@ GameObject:
   - component: {fileID: 1401278661}
   m_Layer: 0
   m_Name: Objeto inteligente vectorial_2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2206,12 +2257,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.235, y: 0.305}
-      - {x: -0.235, y: -0.235}
-      - {x: -0.155, y: -0.305}
-      - {x: 0.155, y: -0.305}
-      - {x: 0.235, y: -0.225}
-      - {x: 0.235, y: 0.305}
+    - - {x: -0.21754913, y: 0.066508785}
+      - {x: -0.21754913, y: -0.4734912}
+      - {x: -0.13754913, y: -0.5434912}
+      - {x: 0.17245087, y: -0.5434912}
+      - {x: 0.25245085, y: -0.4634912}
+      - {x: 0.25245085, y: 0.066508785}
 --- !u!114 &1401278662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2292,7 +2343,7 @@ GameObject:
   - component: {fileID: 1430454235}
   m_Layer: 0
   m_Name: Objeto inteligente vectorial_3
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2432,7 +2483,7 @@ GameObject:
   - component: {fileID: 1432073685}
   m_Layer: 0
   m_Name: Objeto inteligente vectorial_1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2476,33 +2527,33 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 1.31, y: -1.2149999}
-      - {x: 1.4699999, y: -1.045}
-      - {x: 1.62, y: -0.775}
-      - {x: 1.63, y: -0.72499996}
-      - {x: 1.63, y: 0.705}
-      - {x: 1.5899999, y: 0.835}
-      - {x: 1.43, y: 1.105}
-      - {x: 1.26, y: 1.255}
-      - {x: 1.02, y: 1.385}
-      - {x: 0.91999996, y: 1.405}
-      - {x: 0.89, y: 1.415}
-      - {x: -0.89, y: 1.415}
-      - {x: -1.04, y: 1.365}
-      - {x: -1.17, y: 1.305}
-      - {x: -1.31, y: 1.2149999}
-      - {x: -1.4699999, y: 1.045}
-      - {x: -1.62, y: 0.775}
-      - {x: -1.63, y: 0.72499996}
-      - {x: -1.63, y: -0.695}
-      - {x: -1.5899999, y: -0.835}
-      - {x: -1.4699999, y: -1.045}
-      - {x: -1.3, y: -1.2049999}
-      - {x: -1.18, y: -1.3249999}
-      - {x: -0.93, y: -1.415}
-      - {x: 0.89, y: -1.415}
-      - {x: 1.04, y: -1.365}
-      - {x: 1.17, y: -1.305}
+    - - {x: 1.6216335, y: 0.537061}
+      - {x: 1.6416335, y: 0.637061}
+      - {x: 1.6416335, y: 1.997061}
+      - {x: 1.6016335, y: 2.1470609}
+      - {x: 1.4416336, y: 2.4170609}
+      - {x: 1.2716336, y: 2.5670612}
+      - {x: 1.0316336, y: 2.697061}
+      - {x: 0.84163356, y: 2.737061}
+      - {x: 0.7516336, y: 2.747061}
+      - {x: -0.7283664, y: 2.747061}
+      - {x: -0.87836635, y: 2.737061}
+      - {x: -1.1583663, y: 2.6270611}
+      - {x: -1.2983663, y: 2.527061}
+      - {x: -1.4583664, y: 2.357061}
+      - {x: -1.5183663, y: 2.267061}
+      - {x: -1.5983664, y: 2.087061}
+      - {x: -1.6183664, y: 1.9870609}
+      - {x: -1.6183664, y: 0.627061}
+      - {x: -1.5783664, y: 0.477061}
+      - {x: -1.4583664, y: 0.267061}
+      - {x: -1.2483664, y: 0.057061}
+      - {x: -1.0383663, y: -0.062938996}
+      - {x: -0.9683664, y: -0.08293899}
+      - {x: 0.9916336, y: -0.08293899}
+      - {x: 1.1816336, y: -0.0029389954}
+      - {x: 1.3316336, y: 0.097061}
+      - {x: 1.5516336, y: 0.357061}
 --- !u!114 &1432073686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2901,7 +2952,7 @@ GameObject:
   - component: {fileID: 1670402605}
   m_Layer: 0
   m_Name: Objeto inteligente vectorial
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2945,20 +2996,20 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.35, y: 0.125}
-      - {x: 0.35999998, y: 0.13499999}
-      - {x: 0.35999998, y: 0.42499998}
-      - {x: 0.26, y: 0.48499998}
-      - {x: 0, y: 0.48499998}
-      - {x: -0.24, y: 0.265}
-      - {x: -0.28, y: 0.125}
-      - {x: -0.35999998, y: -0.125}
-      - {x: -0.35999998, y: -0.375}
-      - {x: -0.29, y: -0.48499998}
-      - {x: -0.03, y: -0.48499998}
-      - {x: 0, y: -0.465}
-      - {x: 0.08, y: -0.405}
-      - {x: 0.24, y: -0.005}
+    - - {x: 0.09987533, y: -0.21237792}
+      - {x: 0.10987534, y: -0.20237793}
+      - {x: 0.10987534, y: 0.08762207}
+      - {x: 0.009875336, y: 0.14762206}
+      - {x: -0.25012466, y: 0.14762206}
+      - {x: -0.49012464, y: -0.07237793}
+      - {x: -0.53012466, y: -0.21237792}
+      - {x: -0.61012465, y: -0.4623779}
+      - {x: -0.61012465, y: -0.7123779}
+      - {x: -0.54012465, y: -0.8223779}
+      - {x: -0.28012466, y: -0.8223779}
+      - {x: -0.25012466, y: -0.80237794}
+      - {x: -0.17012466, y: -0.74237794}
+      - {x: -0.010124664, y: -0.34237793}
 --- !u!114 &1670402606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3212,7 +3263,7 @@ GameObject:
   - component: {fileID: 1789410347}
   m_Layer: 0
   m_Name: Objeto inteligente vectorial_5
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3256,13 +3307,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.22999999, y: 0.325}
-      - {x: -0.22999999, y: -0.195}
-      - {x: -0.17, y: -0.315}
-      - {x: -0.12, y: -0.325}
-      - {x: 0.14999999, y: -0.325}
-      - {x: 0.22999999, y: -0.275}
-      - {x: 0.22999999, y: 0.325}
+    - - {x: -0.21254914, y: 0.05742462}
+      - {x: -0.21254914, y: -0.46257538}
+      - {x: -0.15254913, y: -0.5825754}
+      - {x: -0.10254913, y: -0.5925754}
+      - {x: 0.16745086, y: -0.5925754}
+      - {x: 0.24745086, y: -0.54257536}
+      - {x: 0.24745086, y: 0.05742462}
 --- !u!114 &1789410348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3471,7 +3522,7 @@ GameObject:
   - component: {fileID: 1880433580}
   m_Layer: 0
   m_Name: Objeto inteligente vectorial_4
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3515,17 +3566,17 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.39, y: 0.065}
-      - {x: -0.03, y: 0.36499998}
-      - {x: -0.39, y: 0.36499998}
-      - {x: -0.42999998, y: 0.275}
-      - {x: -0.42999998, y: 0.005}
-      - {x: -0.29, y: -0.21499999}
-      - {x: 0.099999994, y: -0.36499998}
-      - {x: 0.32, y: -0.36499998}
-      - {x: 0.42, y: -0.325}
-      - {x: 0.42999998, y: -0.255}
-      - {x: 0.42999998, y: 0.005}
+    - - {x: 0.68666, y: -0.16767426}
+      - {x: 0.26666, y: 0.13232574}
+      - {x: -0.093339995, y: 0.13232574}
+      - {x: -0.13333999, y: 0.042325743}
+      - {x: -0.13333999, y: -0.22767425}
+      - {x: 0.0066600037, y: -0.44767424}
+      - {x: 0.39666, y: -0.59767425}
+      - {x: 0.61666, y: -0.59767425}
+      - {x: 0.71665996, y: -0.5576742}
+      - {x: 0.72666, y: -0.48767424}
+      - {x: 0.72666, y: -0.22767425}
 --- !u!114 &1880433581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3696,8 +3747,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1933939112}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.08, y: -1.95, z: 0}
-  m_LocalScale: {x: 0.06, y: 0.06, z: 0.1}
+  m_LocalPosition: {x: 0.08, y: -1.83, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.5, z: 0.1}
   m_Children: []
   m_Father: {fileID: 928094193}
   m_RootOrder: 3
