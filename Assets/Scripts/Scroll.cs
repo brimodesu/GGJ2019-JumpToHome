@@ -6,19 +6,22 @@ public class Scroll : MonoBehaviour
 {
     public float velocidad = 5f;
     private MeshRenderer renderer;
+    private Transform camara;
 
     private void Awake()
     {
         renderer = GetComponent<MeshRenderer>();
+        camara = Camera.main.transform;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
+        transform.position = new Vector3(camara.position.x, transform.position.y, transform.position.z);
         int direccion = 0;
-        if (Input.GetAxis("Horizontal") != 0)
+        if (Input.GetAxis("Horizontal") != 0 || EstadoNiveles.scroll)
         {
-            if (Input.GetAxis("Horizontal") > 0)
+            if (Input.GetAxis("Horizontal") > 0 || EstadoNiveles.scroll)
             {
                 direccion = -1;
             }
