@@ -15,7 +15,11 @@ public class Final : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (pensamiento.active) {
+            if (Input.GetKey(KeyCode.Space)) {
+                UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+            }
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
