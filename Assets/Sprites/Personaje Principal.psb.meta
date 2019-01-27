@@ -156,8 +156,8 @@ ScriptedImporter:
   rigSpriteImportData:
   - name: Objeto inteligente vectorial
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.84739536, y: 0.8478123}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -593,13 +593,13 @@ ScriptedImporter:
     uvTransform: {x: 16, y: 191}
   - name: Objeto inteligente vectorial_1
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.4964314, y: 0.029307075}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
+      y: 6
       width: 326
       height: 283
     spriteID: 5d0a536fbb4335f4ca320dfb94b2365c
@@ -968,8 +968,8 @@ ScriptedImporter:
     uvTransform: {x: -89, y: -178}
   - name: Objeto inteligente vectorial_2
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.4628705, y: 0.8909692}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1728,8 +1728,8 @@ ScriptedImporter:
     uvTransform: {x: -185, y: 226}
   - name: Objeto inteligente vectorial_4
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.15504651, y: 0.81873184}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2120,8 +2120,8 @@ ScriptedImporter:
     uvTransform: {x: -68, y: 179}
   - name: Objeto inteligente vectorial_5
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.46206334, y: 0.9116544}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
