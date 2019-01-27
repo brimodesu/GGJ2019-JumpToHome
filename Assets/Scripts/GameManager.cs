@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
 
     public void CambiarEscena(string nombre_escena)
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(nombre_escena);
     }
 
