@@ -21,8 +21,11 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(nombre_escena);
     }
-
+    
     public void pausa() {
         Time.timeScale = 0;
     }
+    public void CambiarEstadoPanel(GameObject panel) {
+        panel.SetActive(!panel.activeInHierarchy);
+   }
 }
