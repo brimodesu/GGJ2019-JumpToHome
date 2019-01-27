@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Final : MonoBehaviour
+public class Regresar : MonoBehaviour
 {
-    public GameObject pensamiento;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +19,7 @@ public class Final : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player") {
-            pensamiento.SetActive(true);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(1);
         }
     }
 }

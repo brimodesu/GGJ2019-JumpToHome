@@ -17,16 +17,22 @@ public class GameManager : MonoBehaviour
 
         Debug.Log(SceneManager.GetActiveScene().name);
 
+        
+        
+    }
+
+    private void Start()
+    {
         if (SceneManager.GetActiveScene().name.Equals("Inicio"))
         {
             EstadoNiveles.scroll = true;
             audio.GetComponent<AudioManager>().reproducir(0);
         }
-        else {
+        else
+        {
             EstadoNiveles.scroll = false;
             audio.GetComponent<AudioManager>().reproducir(4);
         }
-        
     }
 
     // Update is called once per frame

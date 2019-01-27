@@ -29,7 +29,7 @@ public class Scroll : MonoBehaviour
             {
                 direccion = 1;
             }
-            renderer.material.mainTextureOffset += new Vector2(Time.deltaTime *velocidad *  -direccion * 0.2f, 0);
+            renderer.material.mainTextureOffset += new Vector2(Time.deltaTime *velocidad *  -direccion * 0.4f, 0);
         }
 
     }
