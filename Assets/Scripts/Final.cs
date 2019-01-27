@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Final : MonoBehaviour
 {
     public GameObject pensamiento;
+
+   public Image imgFinal;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +20,8 @@ public class Final : MonoBehaviour
     {
         if (pensamiento.active) {
             if (Input.GetKey(KeyCode.Space)) {
-                UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+                //UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+                StartCoroutine(LoadFinalImage());
             }
         }
     }
@@ -26,6 +30,19 @@ public class Final : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player") {
             pensamiento.SetActive(true);
+            
+        }
+    }
+
+    IEnumerator LoadFinalImage() {
+        float duration =  60f;
+        float elapsed = 0.0f;
+   
+        while (elapsed < duration)
+        {
+            imgFinal.fillAmount += .25f;
+            elapsed += Time.deltaTime;
+            yield return null;
         }
     }
 }
